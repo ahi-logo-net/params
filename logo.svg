@@ -24,12 +24,10 @@
 <g font-family="ヒラギノ角ゴ ProN,モリサワ新ゴ,Noto Sans JP" font-weight="bold" font-size="56" text-anchor="middle" fill="#ffffff">
 <text y="55" x="59" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="108">空想</text>
 <text y="108" x="59" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="108">文章</text></g>
-<path d="M -3,-2 H 123 V 122 H -3 Z" fill="#c080ff"></path>
 <path d="M 113,47 85,73 91,110 58,92 24,109 31,72 4,45 42,40 59,6 75,40 Z" fill="#d0b0ff"></path>
 <g font-family="Mochiy Pop P One" text-anchor="middle" font-size="55" fill="#ffffff">
 <text y="56" x="60" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="106">地図</text>
 <text y="108" x="61" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="111">くらぶ</text></g>
-<path d="M -3,-2 H 123 V 122 H -3 Z" fill="#c08000"></path>
 <path d="M 60,12 108,60 60,108 12,60 Z" fill="#e0c080"></path>
 <g font-family="HG丸ｺﾞｼｯｸM-PRO,Kosugi Maru" text-anchor="middle" fill="#ffffff">
 <text y="51" x="61.5" letter-spacing="1.8" lengthAdjust="spacingAndGlyphs" textLength="108" font-size="48">中京</text>
