@@ -32,7 +32,40 @@
 <text y="102" x="34.5" letter-spacing="1.8" lengthAdjust="spacingAndGlyphs" textLength="54" font-size="48">都</text>
 <text y="84" x="88.5" letter-spacing="0.7" lengthAdjust="spacingAndGlyphs" textLength="54" font-size="24">ふぁ</text>
 <text y="106.5" x="91.5" letter-spacing="0.9" lengthAdjust="spacingAndGlyphs" textLength="30" font-size="24">ん</text></g>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const type = params.get("t") || "0";
+    const text = params.get("a") || "🍄";
+    const back = params.get("b") || "fff";
+    const color = params.get("c") || "fff";
+    const path = params.get("p") || "fff";
+    const svg = document.getElementById("svg")
+
+    svg.addEventListener("load", () => {
+      const svgDoc = svg.contentDocument;
+      if (!svgDoc) {
+        console.warn("SVG document not loaded yet.");
+        return;
+      }
+      const svgBack = svgDoc.getElementById("back");
+      const svgPath = svgDoc.getElementById("path");
+      const svgText = svgDoc.querySelectorAll("text");
+      //const svgLetter = svgDoc.getElementById("text")
+      //svgLetter.textContent = text;
+      svgPath.setAttribute("fill", "#" + path);
+      svgBack.setAttribute("fill", "#" + back);
+      svgText.forEach(el => el.setAttribute("fill", "#" + color));
+      if (type === "0"){
+        svgPath.setAttribute("d", "m -8,82 c 0,0 10,-9 24,-9 14,0 42,15 42,15 0,0 24,15 39,15 C 112,103 130,91 130,91 l 0,14 c 0,0 -21,9 -33,9 -12,0 -38,-12 -38,-12 0,0 -33,-18 -44,-18 -12,0 -23,10 -23,10 z");
+      } else if (type === "1"){
+        svgPath.setAttribute("d", "M 113,47 85,73 91,110 58,92 24,109 31,72 4,45 42,40 59,6 75,40 Z");
+      } else if (type === "2"){
+        svgPath.setAttribute("d", "M 60,12 108,60 60,108 12,60 Z");
+      }
+    });
+  </script>
 </svg>
+
 
 
 
