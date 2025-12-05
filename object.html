@@ -13,11 +13,12 @@
     const back = params.get("b") || "fff";
     const path = params.get("p") || "fff";
     const svg = document.getElementById("svg")
+    const svgDoc = svg.contentDocument;
+    const svgBack = svgDoc.getElementById("back");
+    const svgPath = svgDoc.getElementById("path");
+    const svgText = svgDoc.querySelector("text");
 
     svg.addEventListener("load", () => {
-      const svgBack = svg.getElementById("back");
-      const svgPath = svg.getElementById("path");
-      const svgText = svg.querySelector("text");
       if (svgText) svgText.textContent = text;
       svgPath.fill = "#" + path;
       svgBack.fill = "#" + back;
