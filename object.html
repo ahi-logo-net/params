@@ -19,7 +19,7 @@
       const svgDoc = svg.contentDocument;
       const svgBack = svgDoc.getElementById("back");
       const svgPath = svgDoc.getElementById("path");
-      const svgText = svgDoc.querySelector("text");
+      const svgText = svgDoc.querySelectorAll("text");
       const svgLetter = svgDoc.getElementById("text")
       svgLetter.textContent = text;
       svgPath.fill = "#" + path;
