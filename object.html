@@ -15,12 +15,13 @@
     const svg = document.getElementById("svg")
 
     svg.addEventListener("load", () => {
-      const svgPath = svg.contentDocument;
+      const svgPath = svg.getElementById("path");
       const svgText = svg.querySelector("text");
       if (svgText) svgText.textContent = text;
       if (type === "0"){
-        a
+        svgPath.d = "";
       }
+      svgPath.fill = "#" + path;
     });
   </script>
 </body>
