@@ -42,7 +42,7 @@
 
     const svgBack = document.getElementById("back");
     const svgPath = document.getElementById("path");
-    const svgText = document.querySelectorAll("text");
+    const svgText = document.querySelectorAll("g");
     //const svgLetter = document.getElementById("text")
     //svgLetter.textContent = text;
     svgPath.setAttribute("fill", "#" + path);
@@ -62,6 +62,7 @@
     }
   </script>
 </svg>
+
 
 
 
