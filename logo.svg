@@ -40,7 +40,6 @@
     const color = params.get("c") || "fff";
     const path = params.get("p") || "fff";
 
-    document.addEventListener("load", () => {
       const svgBack = document.getElementById("back");
       const svgPath = document.getElementById("path");
       const svgText = document.querySelectorAll("text");
@@ -56,9 +55,9 @@
       } else if (type === "2"){
         svgPath.setAttribute("d", "M 60,12 108,60 60,108 12,60 Z");
       }
-    });
   </script>
 </svg>
+
 
 
 
