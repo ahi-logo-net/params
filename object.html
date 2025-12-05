@@ -8,12 +8,15 @@
   <object id="svg" type="image/svg+xml" data="logo.svg"></object>
   <script>
     const params = new URLSearchParams(location.search);
-    const text = params.get("text") || "🍄";
+    const type = params.get("t") || "1";
+    const text = params.get("a") || "🍄";
+    const back = params.get("b") || "fff";
+    const path = params.get("p") || "fff";
 
     document.getElementById("svg").addEventListener("load", () => {
-      const svgDoc = document.getElementById("svg").contentDocument;
-      const textNode = svgDoc.getElementById("dynamic-text");
-      if (textNode) textNode.textContent = text;
+      const svgPath = document.getElementById("svg").contentDocument;
+      const svgText = svgDoc.querySelector("text");
+      if (svgText) textNode.textContent = text;
     });
   </script>
 </body>
