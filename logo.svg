@@ -41,10 +41,10 @@
     const path = params.get("p") || "fff";
 
     document.addEventListener("load", () => {
-      const svgBack = Document.getElementById("back");
-      const svgPath = Document.getElementById("path");
-      const svgText = Document.querySelectorAll("text");
-      //const svgLetter = Document.getElementById("text")
+      const svgBack = document.getElementById("back");
+      const svgPath = document.getElementById("path");
+      const svgText = document.querySelectorAll("text");
+      //const svgLetter = document.getElementById("text")
       //svgLetter.textContent = text;
       svgPath.setAttribute("fill", "#" + path);
       svgBack.setAttribute("fill", "#" + back);
@@ -59,6 +59,7 @@
     });
   </script>
 </svg>
+
 
 
 
