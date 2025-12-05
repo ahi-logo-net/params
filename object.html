@@ -8,15 +8,19 @@
   <object id="svg" type="image/svg+xml" data="logo.svg"></object>
   <script>
     const params = new URLSearchParams(location.search);
-    const type = params.get("t") || "1";
+    const type = params.get("t") || "0";
     const text = params.get("a") || "🍄";
     const back = params.get("b") || "fff";
     const path = params.get("p") || "fff";
+    const svg = document.getElementById("svg")
 
-    document.getElementById("svg").addEventListener("load", () => {
-      const svgPath = document.getElementById("svg").contentDocument;
-      const svgText = svgDoc.querySelector("text");
+    svg.addEventListener("load", () => {
+      const svgPath = svg.contentDocument;
+      const svgText = svg.querySelector("text");
       if (svgText) textNode.textContent = text;
+      if (type === "0"){
+        a
+      }
     });
   </script>
 </body>
