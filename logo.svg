@@ -20,6 +20,7 @@
 }
 </style>
 <path d="M -2.7,-1.9 H 123 V 122 H -2.7 Z" fill="#00c080" id="back"></path>
+<path id="path"></path>
 <path d="m -8,82 c 0,0 10,-9 24,-9 14,0 42,15 42,15 0,0 24,15 39,15 C 112,103 130,91 130,91 l 0,14 c 0,0 -21,9 -33,9 -12,0 -38,-12 -38,-12 0,0 -33,-18 -44,-18 -12,0 -23,10 -23,10 z" fill="#80ffc0"></path>
 <g font-family="ヒラギノ角ゴ ProN,モリサワ新ゴ,Noto Sans JP" font-weight="bold" font-size="56" text-anchor="middle" fill="#ffffff">
 <text y="55" x="59" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="108">空想</text>
@@ -35,4 +36,5 @@
 <text y="84" x="88.5" letter-spacing="0.7" lengthAdjust="spacingAndGlyphs" textLength="54" font-size="24">ふぁ</text>
 <text y="106.5" x="91.5" letter-spacing="0.9" lengthAdjust="spacingAndGlyphs" textLength="30" font-size="24">ん</text></g>
 </svg>
+
 
