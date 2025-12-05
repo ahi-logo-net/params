@@ -1,0 +1,19 @@
+<svg width="150px" viewBox="0 0 120 120">
+<path d="M -2.7,-1.9 H 123 V 122 H -2.7 Z" fill="#00c080"></path>
+<path d="m -8,82 c 0,0 10,-9 24,-9 14,0 42,15 42,15 0,0 24,15 39,15 C 112,103 130,91 130,91 l 0,14 c 0,0 -21,9 -33,9 -12,0 -38,-12 -38,-12 0,0 -33,-18 -44,-18 -12,0 -23,10 -23,10 z" fill="#80ffc0"></path>
+<g font-family="ヒラギノ角ゴ ProN,モリサワ新ゴ,Noto Sans JP" font-weight="bold" font-size="56" text-anchor="middle" fill="#ffffff">
+<text y="55" x="59" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="108">空想</text>
+<text y="108" x="59" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="108">文章</text></g>
+<path d="M -3,-2 H 123 V 122 H -3 Z" fill="#c080ff"></path>
+<path d="M 113,47 85,73 91,110 58,92 24,109 31,72 4,45 42,40 59,6 75,40 Z" fill="#d0b0ff"></path>
+<g font-family="Mochiy Pop P One" text-anchor="middle" font-size="55" fill="#ffffff">
+<text y="56" x="60" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="106">地図</text>
+<text y="108" x="61" letter-spacing="-2.7" lengthAdjust="spacingAndGlyphs" textLength="111">くらぶ</text></g>
+<path d="M -3,-2 H 123 V 122 H -3 Z" fill="#c08000"></path>
+<path d="M 60,12 108,60 60,108 12,60 Z" fill="#e0c080"></path>
+<g font-family="HG丸ｺﾞｼｯｸM-PRO,Kosugi Maru" text-anchor="middle" fill="#ffffff">
+<text y="51" x="61.5" letter-spacing="1.8" lengthAdjust="spacingAndGlyphs" textLength="108" font-size="48">中京</text>
+<text y="102" x="34.5" letter-spacing="1.8" lengthAdjust="spacingAndGlyphs" textLength="54" font-size="48">都</text>
+<text y="84" x="88.5" letter-spacing="0.7" lengthAdjust="spacingAndGlyphs" textLength="54" font-size="24">ふぁ</text>
+<text y="106.5" x="91.5" letter-spacing="0.9" lengthAdjust="spacingAndGlyphs" textLength="30" font-size="24">ん</text></g>
+</svg>
