@@ -39,18 +39,12 @@
     const back = params.get("b") || "fff";
     const color = params.get("c") || "fff";
     const path = params.get("p") || "fff";
-    const svg = document.getElementById("svg")
 
-    svg.addEventListener("load", () => {
-      const svgDoc = svg.contentDocument;
-      if (!svgDoc) {
-        console.warn("SVG document not loaded yet.");
-        return;
-      }
-      const svgBack = svgDoc.getElementById("back");
-      const svgPath = svgDoc.getElementById("path");
-      const svgText = svgDoc.querySelectorAll("text");
-      //const svgLetter = svgDoc.getElementById("text")
+    document.addEventListener("load", () => {
+      const svgBack = Document.getElementById("back");
+      const svgPath = Document.getElementById("path");
+      const svgText = Document.querySelectorAll("text");
+      //const svgLetter = Document.getElementById("text")
       //svgLetter.textContent = text;
       svgPath.setAttribute("fill", "#" + path);
       svgBack.setAttribute("fill", "#" + back);
@@ -65,6 +59,7 @@
     });
   </script>
 </svg>
+
 
 
 
