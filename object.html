@@ -17,6 +17,10 @@
 
     svg.addEventListener("load", () => {
       const svgDoc = svg.contentDocument;
+      if (!svgDoc) {
+        console.warn("SVG document not loaded yet.");
+        return;
+      }
       const svgBack = svgDoc.getElementById("back");
       const svgPath = svgDoc.getElementById("path");
       const svgText = svgDoc.querySelectorAll("text");
